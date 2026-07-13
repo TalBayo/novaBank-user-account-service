@@ -1,7 +1,7 @@
 services:
   broker:
     image: apache/kafka:latest
-    container_name: Kafka
+    container_name: kafka
     ports:
       - "9092:9092"
     environment:
