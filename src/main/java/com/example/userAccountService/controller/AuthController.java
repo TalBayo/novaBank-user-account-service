@@ -28,8 +28,8 @@ public class AuthController {
         return ResponseEntity.ok(authService.loginUser(loginRequest));
     }
 
-//    @GetMapping("/hello")
-//    public ResponseEntity<ApiResponse<?>> hello() {
-//        return ResponseEntity.ok(new ApiResponse<>(200, "Success", "Welcome To Nova Bank"));
-//    }
+    @GetMapping("/hello")
+    public ResponseEntity<ApiResponse<?>> hello() {
+        return ResponseEntity.ok(new ApiResponse<>(200, "Success", "Welcome To Nova Bank"));
+    }
 }
