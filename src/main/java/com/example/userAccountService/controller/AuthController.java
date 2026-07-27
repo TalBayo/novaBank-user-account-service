@@ -30,6 +30,6 @@ public class AuthController {
 
     @GetMapping("/hello")
     public ResponseEntity<ApiResponse<?>> hello() {
-        return ResponseEntity.ok(new ApiResponse<>(200, "Success", "Welcome To Nova Bank"));
+        return ResponseEntity.ok(new ApiResponse<>(200, "Success", "Welcome To Nova Bank 🏦"));
     }
 }
